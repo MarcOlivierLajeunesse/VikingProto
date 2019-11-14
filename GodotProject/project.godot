@@ -19,6 +19,22 @@ config/name="VikingProto"
 run/main_scene="res://Scenes/Main.tscn"
 config/icon="res://icon.png"
 
+[display]
+
+window/size/width=1920
+window/size/height=1080
+window/size/resizable=false
+window/size/borderless=true
+window/size/fullscreen=true
+
+[layer_names]
+
+2d_physics/layer_1="Player"
+2d_physics/layer_2="Walls"
+2d_physics/layer_3="Exit"
+2d_physics/layer_4="Enemies"
+2d_physics/layer_5="Loot"
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"
