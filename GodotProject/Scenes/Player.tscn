@@ -8,19 +8,12 @@ collision_mask = 30
 script = ExtResource( 1 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2( 19, -16 )
+rotation = 1.5708
 polygon = PoolVector2Array( 14.9496, 0.102669, 16.8124, 0.102669, 17.9464, 2.04654, 17.8654, 6.01528, 21.5911, 6.09628, 29.0427, 13.7098, 29.2046, 24.0771, 21.1052, 32.0956, 10.2519, 32.0146, 3.12434, 24.8871, 2.80036, 13.9528, 10.0089, 6.25827, 13.7346, 6.17727, 13.8156, 2.28953 )
-__meta__ = {
-"_edit_lock_": true
-}
 
 [node name="Sprite" type="Sprite" parent="CollisionPolygon2D"]
 texture = ExtResource( 2 )
 centered = false
-__meta__ = {
-"_edit_lock_": true
-}
 
 [node name="Camera2D" type="Camera2D" parent="."]
-__meta__ = {
-"_edit_lock_": true
-}
